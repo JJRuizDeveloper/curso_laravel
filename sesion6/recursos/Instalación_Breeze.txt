@@ -1,0 +1,15 @@
+
+// Instalación del paquete Laravel Breeze
+composer require laravel/breeze --dev
+
+// Ejecución del comando install de Breeze para que genere la estructura (sccafold)
+php artisan breeze:install
+ 
+// Migramos el contenido para que Laravel genere la tabla users por defecto
+php artisan migrate
+
+// Instalamos las dependencias NPM (anteriormente webpack, ahora vite)
+npm install
+
+// Corremos el servicio (anteriormente webpack, ahora vite)
+npm run dev
